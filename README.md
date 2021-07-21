@@ -27,9 +27,10 @@ Concurrent Pipelines (aka Parallel Jobs) - Lets you run a single build or releas
 Microsoft-hosted vs Self-hosted 
 
 * Microsoft-hosted
-	>> less administrative overhead
+	* less administrative overhead
 * Self-hosted
-	>> avoid latency
+	* you have specific software you need to install to build your application
+	* avoid latency
 
 
 ### 7. Define and implement a continuous delivery and release management strategy (10-15%)
