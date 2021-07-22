@@ -33,19 +33,18 @@ Microsoft-hosted vs Self-hosted
 	* avoid latency
 
 Automated Testing - Uses software to execute your code and compare the actual results with the results you expect.
-	* Lint Testing - A form of static code analysis, checks your code to determine whether it conforms to your team's style guide.
-	* Unit Tests - Testing a single peice of functionality.
-	* Code Coverage - Computes the percentage of your code that's covered by your unit tests.
-	* Intergration Tests - Done after the build. Verifies that multiple components work together.
-	* Regression Tests -
+* Lint Testing - A form of static code analysis, checks your code to determine whether it conforms to your team's style guide.
+* Unit Tests - Testing a single peice of functionality.
+* Code Coverage - Computes the percentage of your code that's covered by your unit tests.
+* Intergration Tests - Done after the build. Verifies that multiple components work together.
+* Regression Tests -
 
 What is a package?
-	- A package contains reusable code that other developers can use in their own project.
-	- Typically contains the compiled binary code (ex. .dll for .NET or .class for Java).
-	- For language that are interpreted instead of compiled (ex. JavaScript or Python), a package might include source code.
+* A package contains reusable code that other developers can use in their own project.
+* Typically contains the compiled binary code (ex. .dll for .NET or .class for Java).
+* For language that are interpreted instead of compiled (ex. JavaScript or Python), a package might include source code.
 
-Semantic Versioning
-Major.Minor.Patch[-Suffix]
+Semantic Versioning ( Major.Minor.Patch[-Suffix] )
 
 * Major - Introduces breaking changes. Apps typically need to update how they use the package to work with a new major version. 
 * Minor - Introduces new features but is backward compatible with earlier versions.
