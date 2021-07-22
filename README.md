@@ -51,4 +51,11 @@ Semantic Versioning ( Major.Minor.Patch[-Suffix] )
 * Patch - Introduces backward compatible bug fixes but not new features.
 * -Suffix - identifies the package as a pre-release (ex. 1.0.0-beta1)
 
+Azure Artifacts
+- A repository in Azure DevOps where you can manage the dependencies for you codebase.
+- Stores artifacts and binaries.
+
+Security Scanning
+- During the build process, you can integrate external tools that scans the packages and gives feedback. During the CD process, the tool uses the build artifacts and performs scans (Ex. WhiteSource Bolt and Black Duck).
+
 ### 7. Define and implement a continuous delivery and release management strategy (10-15%)
