@@ -1,4 +1,5 @@
 ## Exam AZ-400: Designing and Implementing Microsoft DevOps Solutions
+Regularly updated as I go thru each [Skills Measured in this doc.](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VP8d)
 
 References:
 
