@@ -26,12 +26,18 @@ A Pipeline is composed of:
 Concurrent Pipelines (aka Parallel Jobs) - Lets you run a single build or release job at any give time. Purchased at the organization level. Shared by all projects in the organization.
 
 Microsoft-hosted vs Self-hosted 
+[More info here](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml)
 
 * Microsoft-hosted
-	* less administrative overhead
+	* Less administrative overhead
+	* Has a fixed disk space
+	* You can't sign in to a Hosted Agent
+	* You can't drop build artifacts to UNC file shares
 * Self-hosted
-	* you have specific software you need to install to build your application
-	* avoid latency
+	* Hosted Agents share resources with other Azure DevOps customers. Use Self-Hosted if you want to minimize latency.
+	* You have to maintain the Build Agent yourself.
+	* Use Self-Hosted if you want to perform incremental builds. Incremental builds take less time to complete because the system already has the build tools and dependent components installed.
+	
 
 Automated Testing - Uses software to execute your code and compare the actual results with the results you expect.
 * Lint Testing - A form of static code analysis, checks your code to determine whether it conforms to your team's style guide.
