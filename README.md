@@ -44,6 +44,8 @@ Automated Testing - Uses software to execute your code and compare the actual re
 * Unit Tests - Testing a single peice of functionality.
 * Code Coverage - Computes the percentage of your code that's covered by your unit tests.
 * Intergration Tests - Done after the build. Verifies that multiple components work together.
+* Funtional Tests - Verifies that each function of the software does what it should. How the software implements each function isn't important in these tests. What's important is that the software behaves correctly. You provide an input and check that the output is what you expect.
+* Nonfunctional Tests - Checks characteristics like performance and reliability. An example of a nonfunctional test is checking to see how many people can sign in to the app simultaneously. Load testing is another example of a nonfunctional test.
 * Regression Tests -
 
 What is a package?
