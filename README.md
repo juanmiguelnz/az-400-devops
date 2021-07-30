@@ -43,13 +43,12 @@ Function Tests
 
 * Smoke Testing - Verifies the most basic functionality of your application or service. These tests are often run before more complete and exhaustive tests. Smoke tests should run quickly.
 * Unit Testing - Verifies the most fundamental components of your program or library, such as an individual function or method.
+	** Code Coverage - Computes the percentage of your code that's covered by your unit tests.
 * Intergration Testing - Verifies that multiple software components work together to form a complete system. For example, an e-commerce system might include a website, a products database, and a payment system. You might write an integration test that adds items to the shopping cart and then purchases the items. The test verifies that the web application can connect to the products database and then fulfill the order.
 * Regression Testing - A regression occurs when existing behavior either changes or breaks after you add or change a feature. Regression testing helps determine whether code, configuration, or other changes affect the software's overall behavior.
 * User interface Testing - Verifies the behavior of an application's user interface. UI tests help verify that the sequence, or order, of user interactions leads to the expected result.
 * Usability Testing - A form of manual testing that verifies an application's behavior from the user's perspective. Usability testing is typically done by the team that builds the software.
-* User Acceptance Testing - like usability testing, focuses on an application's behavior from the user's perspective. Unlike usability testing, UAT is typically done by real end users.
-
-	** Code Coverage - Computes the percentage of your code that's covered by your unit tests.
+* User Acceptance Testing - like usability testing, focuses on an application's behavior from the user's perspective. Unlike usability testing, UAT is typically done by real end users.  
 
 Nonfunctional Tests
 	- Checks characteristics like performance and reliability. An example of a nonfunctional test is checking to see how many people can sign in to the app simultaneously. Load testing is another example of a nonfunctional test.
