@@ -53,8 +53,8 @@ Function Tests
 Nonfunctional Tests  
 	- Checks characteristics like performance and reliability. An example of a nonfunctional test is checking to see how many people can sign in to the app simultaneously. Load testing is another example of a nonfunctional test.  
 
-	** Automated Testing - Uses software to execute your code and compare the actual results with the results you expect.
-	** Lint Testing - A form of static code analysis, checks your code to determine whether it conforms to your team's style guide.
+** Automated Testing - Uses software to execute your code and compare the actual results with the results you expect.
+** Lint Testing - A form of static code analysis, checks your code to determine whether it conforms to your team's style guide.
 
 
 
