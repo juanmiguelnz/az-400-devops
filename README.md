@@ -49,7 +49,7 @@ Function Tests
 * Usability Testing - A form of manual testing that verifies an application's behavior from the user's perspective. Usability testing is typically done by the team that builds the software.
 * User Acceptance Testing - like usability testing, focuses on an application's behavior from the user's perspective. Unlike usability testing, UAT is typically done by real end users.
 
-* Code Coverage - Computes the percentage of your code that's covered by your unit tests.
+	** Code Coverage - Computes the percentage of your code that's covered by your unit tests.
 
 Nonfunctional Tests
 	- Checks characteristics like performance and reliability. An example of a nonfunctional test is checking to see how many people can sign in to the app simultaneously. Load testing is another example of a nonfunctional test.
