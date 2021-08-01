@@ -1,10 +1,10 @@
-Continuous Integration  
+## Continuous Integration  
 The process of automating the build and testing of code every time a team member commits changes to version control.
 
 Concurrent Pipelines (aka Parallel Jobs)  
 Lets you run a single build or release job at any give time. Purchased at the organization level. Shared by all projects in the organization.
 
-Microsoft-hosted vs Self-hosted 
+## Microsoft-hosted vs Self-hosted 
 [More info here](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml)
 
 * Microsoft-hosted
@@ -16,6 +16,8 @@ Microsoft-hosted vs Self-hosted
 	* Hosted Agents share resources with other Azure DevOps customers. Use Self-Hosted if you want to minimize latency.
 	* You have to maintain the Build Agent yourself.
 	* Use Self-Hosted if you want to perform incremental builds. Incremental builds take less time to complete because the system already has the build tools and dependent components installed.
+
+##
 
 Functional Tests  
 Verifies that each function of the software does what it should. How the software implements each function isn't important in these tests. What's important is that the software behaves correctly. You provide an input and check that the output is what you expect.
@@ -35,14 +37,12 @@ Nonfunctional Tests
 ** Automated Testing - Uses software to execute your code and compare the actual results with the results you expect.
 ** Lint Testing - A form of static code analysis, checks your code to determine whether it conforms to your team's style guide.
 
-
-
-What is a package?
+## What is a package?
 * A package contains reusable code that other developers can use in their own project.
 * Typically contains the compiled binary code (ex. .dll for .NET or .class for Java).
 * For language that are interpreted instead of compiled (ex. JavaScript or Python), a package might include source code.
 
-Semantic Versioning ( Major.Minor.Patch[-Suffix] )
+## Semantic Versioning ( Major.Minor.Patch[-Suffix] )
 
 * Major - Introduces breaking changes. Apps typically need to update how they use the package to work with a new major version. 
 * Minor - Introduces new features but is backward compatible with earlier versions.
@@ -56,7 +56,7 @@ Azure Artifacts
 Security Scanning
 - During the build process, you can integrate external tools that scans the packages and gives feedback. During the CD process, the tool uses the build artifacts and performs scans (Ex. WhiteSource Bolt and Black Duck).
 
-Azure Pipeline  
+## Azure Pipeline  
 * Trigger - tells the Pipeline to run
 * Pipeline - made up of ***one or more Stages***. A Pipeline can deploy to ***one or more Environments***.
 * Stage - a way of organizing Jobs in a Pipeline. Each Stage can have ***one or more Jobs***.
