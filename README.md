@@ -6,11 +6,13 @@ References:
 * [AZ-400 Exam Page](https://docs.microsoft.com/en-us/learn/certifications/exams/az-400)
 * [Microsoft Learn](https://docs.microsoft.com/en-us/learn/browse/?roles=devops-engineer&resource_type=learning%20path)
 * [Pluralsight](https://app.pluralsight.com/paths/certificate/designing-and-implementing-microsoft-devops-solutions-az-400)
+* [Define and implement continuous integration](./Continuous Integration/CI.md)
 
 ### 1. Develop an instrumentation strategy (5-10%)
 ### 2. Develop a Site Reliability Engineering (SRE) strategy (5-10%)
 ### 3. Develop a security and compliance plan (10-15%)
 ### 4. Manage source control (10-15%)
 ### 5. Facilitate communication and collaboration (10-15%)
-### 6. [Define and implement continuous integration (20-25%)](./Continuous Integration/CI.md)
+### 6. [Define and implement continuous integration](./Continuous Integration/CI.md)
+
 ### 7. Define and implement a continuous delivery and release management strategy (10-15%)
