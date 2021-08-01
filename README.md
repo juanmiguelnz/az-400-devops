@@ -1,4 +1,5 @@
 ## Exam AZ-400: Designing and Implementing Microsoft DevOps Solutions
+Regularly updated as I go thru each [Skills Measured in this doc.](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3VP8d)
 
 References:
 
@@ -12,8 +13,4 @@ References:
 ### 4. Manage source control (10-15%)
 ### 5. Facilitate communication and collaboration (10-15%)
 ### 6. Define and implement continuous integration (20-25%)
-----
-
-
-
 ### 7. Define and implement a continuous delivery and release management strategy (10-15%)
