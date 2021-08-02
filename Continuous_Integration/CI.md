@@ -86,4 +86,35 @@ Declarative Management Platform used by Azure Automation State Configuration.
 	* A pull server holds the configuration information. The LCM on each node polls the pull server at regular intervals, by default every 15 minutes, to get the latest configuration details.
 	* Useful in an enterprise deployment that spans a large number of machines. The LCM regularly polls the pull server and makes sure the nodes are in the desired state. If an external tool or team applies hotfixes that result in configuration drift on individual machines, those machines are quickly brought back in line with the configuration you've set. This process can help you achieve a state of continuous compliance for your security and regulatory obligations.
 
+## Enable an ARM Virtual Machine for management with State Configuration  
+1. Create an Azure Automation Account
+2. Create a DSC Configuration  
+Example: TestConfig.ps1
+```
+configuration TestConfig
+{
+    Node IsWebServer
+    {
+        WindowsFeature IIS
+        {
+            Ensure               = 'Present'
+            Name                 = 'Web-Server'
+            IncludeAllSubFeature = $true
+        }
+    }
+
+    Node NotWebServer
+    {
+        WindowsFeature IIS
+        {
+            Ensure               = 'Absent'
+            Name                 = 'Web-Server'
+        }
+    }
+}
+```  
+3. Import the configuration into Azure Automation
+4. Compile the configuration in Azure Automation
+5. Add the VM for management with State Configuration
+
 
