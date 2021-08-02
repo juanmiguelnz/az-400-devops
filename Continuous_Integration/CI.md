@@ -17,9 +17,7 @@ Lets you run a single build or release job at any give time. Purchased at the or
 	* You have to maintain the Build Agent yourself.
 	* Use Self-Hosted if you want to perform incremental builds. Incremental builds take less time to complete because the system already has the build tools and dependent components installed.
 
-##
-
-Functional Tests  
+## Functional Tests  
 Verifies that each function of the software does what it should. How the software implements each function isn't important in these tests. What's important is that the software behaves correctly. You provide an input and check that the output is what you expect.
 
 * Smoke Testing - Verifies the most basic functionality of your application or service. These tests are often run before more complete and exhaustive tests. Smoke tests should run quickly.
@@ -31,7 +29,7 @@ Verifies that each function of the software does what it should. How the softwar
 * Usability Testing - A form of manual testing that verifies an application's behavior from the user's perspective. Usability testing is typically done by the team that builds the software.
 * User Acceptance Testing - like usability testing, focuses on an application's behavior from the user's perspective. Unlike usability testing, UAT is typically done by real end users.  
 
-Nonfunctional Tests  
+## Nonfunctional Tests  
 	- Checks characteristics like performance and reliability. An example of a nonfunctional test is checking to see how many people can sign in to the app simultaneously. Load testing is another example of a nonfunctional test.  
 
 ** Automated Testing - Uses software to execute your code and compare the actual results with the results you expect.
@@ -66,3 +64,26 @@ Security Scanning
 * Task - a ***pre-packaged script*** that performs an action.
 * Artifact - a collection of files and packages ***published by a Run***.
 * Run - represents one execution of a Pipeline.
+
+# PowerShell DSC  
+Declarative Management Platform used by Azure Automation State Configuration.
+
+## Azure Automation State Configuration  
+Has a built-in pull server. You can target nodes to automatically receive configurations from this pull server, conform to the desired state, and report back on their compliance. Target virtual or physical Windows or Linux machines, in the cloud or on-premises.  
+
+You can configure Azure Automation State Configuration to send data to Azure Monitor Logs so you can review compliance of the Nodes.
+
+## Local Configuration Manager (LCM)  
+	* A component of the Windows Management Framework that's on a Windows Operating System
+	* Responsible for updating the state of a node, like a VM, to match the desired state
+
+## Push and Pull Architecture in DSC
+* Push Mode  
+- An administrator manually sends, or pushes, the configurations toward one or more nodes. The LCM makes sure that the state on each node matches what the configuration specifies.
+- Easy to set up. It doesn't need its own dedicated infrastructure, and it can run on a laptop. Push mode is helpful to test the functionality of DSC. You could also use push mode to get a newly imaged machine to the baseline desired state.  
+
+* Pull Mode
+- A pull server holds the configuration information. The LCM on each node polls the pull server at regular intervals, by default every 15 minutes, to get the latest configuration details.
+- Useful in an enterprise deployment that spans a large number of machines. The LCM regularly polls the pull server and makes sure the nodes are in the desired state. If an external tool or team applies hotfixes that result in configuration drift on individual machines, those machines are quickly brought back in line with the configuration you've set. This process can help you achieve a state of continuous compliance for your security and regulatory obligations.
+
+
