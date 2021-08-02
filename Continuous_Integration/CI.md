@@ -29,11 +29,11 @@ Verifies that each function of the software does what it should. How the softwar
 * Usability Testing - A form of manual testing that verifies an application's behavior from the user's perspective. Usability testing is typically done by the team that builds the software.
 * User Acceptance Testing - like usability testing, focuses on an application's behavior from the user's perspective. Unlike usability testing, UAT is typically done by real end users.  
 
-## Nonfunctional Tests  
-	- Checks characteristics like performance and reliability. An example of a nonfunctional test is checking to see how many people can sign in to the app simultaneously. Load testing is another example of a nonfunctional test.  
+## Nonfunctional Tests
+* Checks characteristics like performance and reliability. An example of a nonfunctional test is checking to see how many people can sign in to the app simultaneously. Load testing is another example of a nonfunctional test.  
 
-** Automated Testing - Uses software to execute your code and compare the actual results with the results you expect.
-** Lint Testing - A form of static code analysis, checks your code to determine whether it conforms to your team's style guide.
+* Automated Testing - Uses software to execute your code and compare the actual results with the results you expect.
+* Lint Testing - A form of static code analysis, checks your code to determine whether it conforms to your team's style guide.
 
 ## What is a package?
 * A package contains reusable code that other developers can use in their own project.
