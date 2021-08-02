@@ -69,21 +69,21 @@ Security Scanning
 Declarative Management Platform used by Azure Automation State Configuration.
 
 ## Azure Automation State Configuration  
-Has a built-in pull server. You can target nodes to automatically receive configurations from this pull server, conform to the desired state, and report back on their compliance. Target virtual or physical Windows or Linux machines, in the cloud or on-premises.  
+* Has a built-in pull server. You can target nodes to automatically receive configurations from this pull server, conform to the desired state, and report back on their compliance. Target virtual or physical Windows or Linux machines, in the cloud or on-premises.  
 
-You can configure Azure Automation State Configuration to send data to Azure Monitor Logs so you can review compliance of the Nodes.
+* You can configure Azure Automation State Configuration to send data to Azure Monitor Logs so you can review compliance of the Nodes.
 
 ## Local Configuration Manager (LCM)  
-	* A component of the Windows Management Framework that's on a Windows Operating System
-	* Responsible for updating the state of a node, like a VM, to match the desired state
+* A component of the Windows Management Framework that's on a Windows Operating System
+* Responsible for updating the state of a node, like a VM, to match the desired state
 
 ## Push and Pull Architecture in DSC
 * Push Mode  
-- An administrator manually sends, or pushes, the configurations toward one or more nodes. The LCM makes sure that the state on each node matches what the configuration specifies.
-- Easy to set up. It doesn't need its own dedicated infrastructure, and it can run on a laptop. Push mode is helpful to test the functionality of DSC. You could also use push mode to get a newly imaged machine to the baseline desired state.  
+	* An administrator manually sends, or pushes, the configurations toward one or more nodes. The LCM makes sure that the state on each node matches what the configuration specifies.
+	* Easy to set up. It doesn't need its own dedicated infrastructure, and it can run on a laptop. Push mode is helpful to test the functionality of DSC. You could also use push mode to get a newly imaged machine to the baseline desired state.  
 
 * Pull Mode
-- A pull server holds the configuration information. The LCM on each node polls the pull server at regular intervals, by default every 15 minutes, to get the latest configuration details.
-- Useful in an enterprise deployment that spans a large number of machines. The LCM regularly polls the pull server and makes sure the nodes are in the desired state. If an external tool or team applies hotfixes that result in configuration drift on individual machines, those machines are quickly brought back in line with the configuration you've set. This process can help you achieve a state of continuous compliance for your security and regulatory obligations.
+	* A pull server holds the configuration information. The LCM on each node polls the pull server at regular intervals, by default every 15 minutes, to get the latest configuration details.
+	* Useful in an enterprise deployment that spans a large number of machines. The LCM regularly polls the pull server and makes sure the nodes are in the desired state. If an external tool or team applies hotfixes that result in configuration drift on individual machines, those machines are quickly brought back in line with the configuration you've set. This process can help you achieve a state of continuous compliance for your security and regulatory obligations.
 
 
