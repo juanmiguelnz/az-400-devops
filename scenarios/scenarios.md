@@ -23,3 +23,7 @@
 
 6. You need to use Azure State Configuration. You already create the Azure Automation Account and the DSC script you need. Your DSC script require additional modules. What do you need to do next?
 	* Add required Modules. Under your Azure Autoomation Account, go to Shared Resources > Modules. Select +Add a Module.
+
+7. You need to use Azure State Configuration. You already have an Automation Account, you've created your DSC script and uploaded it to the Automation account, and compiled the configuration. What do you need to do next?
+	* Register the VM with your Azure Automation account
+	* Under your Automation Account go to **Configuration Management > State configuration (DSC) > Nodes (tab) >  click +Add > Select the VM then click +Connect**
