@@ -9,3 +9,17 @@
 
 4. Your user experience (UX) team proposed some drastic changes to your website's home page. Which kind of functional testing can you use to ensure that each button on the page performs the correct function?
 	* UI Testing - UI tests help verify that the sequence, or order, of user interactions leads to the expected result.
+
+5. You need to use Azure State Configuration. You already create the Azure Automation Account and the DSC script you need. What do you need to do next?
+	* Upload the DSC script to the Azure Automation Account using the following command:
+	```
+	Import-AzAutomationDscConfiguration `
+    -AutomationAccountName [your-automation-account-name] `
+    -ResourceGroupName learn-decac6c7-6998-42ff-9e3d-48952ef394de `
+    -SourcePath $HOME/MyDscConfiguration.ps1 `
+    -Force `
+    -Published
+	```
+
+6. You need to use Azure State Configuration. You already create the Azure Automation Account and the DSC script you need. Your DSC script require additional modules. What do you need to do next?
+	* Add required Modules. Under your Azure Autoomation Account, go to Shared Resources > Modules. Select +Add a Module.
