@@ -7,6 +7,9 @@ References:
 * [Microsoft Learn](https://docs.microsoft.com/en-us/learn/browse/?roles=devops-engineer&resource_type=learning%20path)
 * [Pluralsight](https://app.pluralsight.com/paths/certificate/designing-and-implementing-microsoft-devops-solutions-az-400)
 
+## What is DevOps?  
+DevOps is the union of people, process, and products to enable continuous delivery of value to our customers.
+
 ### 1. Develop an instrumentation strategy (5-10%)  
 ### 2. Develop a Site Reliability Engineering (SRE) strategy (5-10%)  
 ### 3. Develop a security and compliance plan (10-15%)  
