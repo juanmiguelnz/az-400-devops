@@ -4,6 +4,12 @@ The process of automating the build and testing of code every time a team member
 Concurrent Pipelines (aka Parallel Jobs)  
 Lets you run a single build or release job at any give time. Purchased at the organization level. Shared by all projects in the organization.
 
+## Continuous Delivery
+A software engineering approach in which teams produce software in short cycles, ensuring that the software can be:  
+	* Reliably released at any time  
+	*Released manually
+![CICD](./static/CICD.png)
+
 ## Microsoft-hosted vs Self-hosted 
 [More info here](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml)
 
@@ -116,5 +122,4 @@ configuration TestConfig
 3. Import the configuration into Azure Automation
 4. Compile the configuration in Azure Automation
 5. Add the VM for management with State Configuration
-
 

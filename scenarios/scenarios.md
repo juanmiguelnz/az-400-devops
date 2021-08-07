@@ -1,3 +1,5 @@
+## Sample Questions:
+
 1. You need to create a Self-Hosted Build Agent. You already created the VM. What do you need to do first before you install the agent on the VM?
 	* You need to install all the software required to build your application in the VM. The registration process checks for installed software before it registers the agent with Azure Pipelines.  
 
@@ -27,3 +29,10 @@
 7. You need to use Azure State Configuration. You already have an Automation Account, you've created your DSC script and uploaded it to the Automation account, and compiled the configuration. What do you need to do next?
 	* Register the VM with your Azure Automation account
 	* Under your Automation Account go to **Configuration Management > State configuration (DSC) > Nodes (tab) >  click +Add > Select the VM then click +Connect**
+
+
+
+## Things I need to look into more:
+- Integrate Jenkins with Azure DevOps
+- SonarQube & SonarCloud
+- Code Analysis Tools (PMD and FindBugs)
