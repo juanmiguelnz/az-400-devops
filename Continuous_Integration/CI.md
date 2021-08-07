@@ -7,7 +7,7 @@ Lets you run a single build or release job at any give time. Purchased at the or
 ## Continuous Delivery
 A software engineering approach in which teams produce software in short cycles, ensuring that the software can be:  
 	* Reliably released at any time  
-	*Released manually
+	* Released manually  
 ![CICD](./static/CICD.png)
 
 ## Microsoft-hosted vs Self-hosted 
