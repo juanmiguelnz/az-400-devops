@@ -6,6 +6,7 @@ References:
 * [AZ-400 Exam Page](https://docs.microsoft.com/en-us/learn/certifications/exams/az-400)
 * [Microsoft Learn](https://docs.microsoft.com/en-us/learn/browse/?roles=devops-engineer&resource_type=learning%20path)
 * [Pluralsight](https://app.pluralsight.com/paths/certificate/designing-and-implementing-microsoft-devops-solutions-az-400)
+* [Microsoft Learning Github](https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions)
 
 ## What is DevOps?  
 DevOps is the union of people, process, and products to enable continuous delivery of value to our customers.
