@@ -30,9 +30,12 @@
 	* Register the VM with your Azure Automation account
 	* Under your Automation Account go to **Configuration Management > State configuration (DSC) > Nodes (tab) >  click +Add > Select the VM then click +Connect**
 
+8. You are an iOS developer for a mobile game app. You need to store diagnostics and analytics data for more than 90 days. What do you need to do?
+ 	* Use Azure Blog Storage or Application Insights. Currently, you can only configure data retention for diagnostics and analytics logs for 90 or 28 days.
 
 
-## Things I need to look into more:
+
+## Things to look more into:
 - Integrate Jenkins with Azure DevOps
 - SonarQube & SonarCloud
 - Code Analysis Tools (PMD and FindBugs)
