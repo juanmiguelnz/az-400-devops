@@ -33,6 +33,8 @@
 8. You are an iOS developer for a mobile game app. You need to store diagnostics and analytics data for more than 90 days. What do you need to do?
  	* Use Azure Blog Storage or Application Insights. Currently, you can only configure data retention for diagnostics and analytics logs for 90 or 28 days.
 
+9. You are a DevOps Engineer for a company called Contoso. You have an ARM template that requires access to secrets stored in Azure Key Vault. You have to ensure that the ARM template can access the secret using the least privilege principle.
+	* Use Azure RBAC for Azure Key Vault.
 
 
 ## Things to look more into:
