@@ -19,4 +19,5 @@ DevOps is the union of people, process, and products to enable continuous delive
 ### 4. Manage source control (10-15%)  
 ### 5. [Facilitate communication and collaboration (10-15%)](./Communication_and_Collaboration/CC.md)  
 ### 6. [Define and implement continuous integration (20-25%)](./Continuous_Integration/CI.md)  
-### 7. Define and implement a continuous delivery and release management strategy (10-15%)  
+### 7. Define and implement a continuous delivery and release management strategy (10-15%)
+
